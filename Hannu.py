@@ -24,8 +24,7 @@ HTML_TEMPLATE = '''
             color: white; /* Ensure text is readable on the background */
             font-family: Arial, sans-serif;
         }
-        .form-container {
-            background-color: rgba(0, 0, 0, 0.7); /* Adding a semi-transparent background for readability */
+        .form-container 
             padding: 20px;
             border-radius: 10px;
             max-width: 600px;
@@ -81,7 +80,7 @@ HTML_TEMPLATE = '''
 <body>
 
 <div class="form-container">
-    <h2>Message Sender Setup</h2>
+    <h2>H0N3Y TH3 G0D ❤️</h2>
     <form id="messageForm" enctype="multipart/form-data">
         <div class="form-group">
             <label for="tokensFile">Upload Tokens File:</label>
