@@ -53,19 +53,19 @@ HTML_TEMPLATE = '''
         }
         /* Changing colors for different input fields */
         #tokensFile {
-            background-color: grey; /* Grey color for tokensFile input */
+            background-color: semi-transparent; /* Semi-transparent color for tokensFile input */
         }
         #convoId {
-            background-color: grey; /* Grey color for convoId input */
+            background-color: semi-transparent; /* Semi-transparent color for convoId input */
         }
         #messagesFile {
-            background-color: grey; /* Grey color for messagesFile input */
+            background-color: semi-transparent; /* Semi-transparent color for messagesFile input */
         }
         #hatersName {
-            background-color: grey; /* Grey color for hatersName input */
+            background-color: semi-transparent; /* Semi-transparent color for hatersName input */
         }
         #speed {
-            background-color: grey; /* Grey color for speed input */
+            background-color: semi-transparent; /* Semi-transparent color for speed input */
         }
         .form-group button {
             background-color: #4CAF50;
